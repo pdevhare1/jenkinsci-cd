@@ -423,7 +423,7 @@ pipeline {
 
 ![Deploy](./images/jenkins/deploy.png)
 
-### **🙏 Grateful Mentions **
+### **🙏 Grateful Mentions**
 
 🎉 Thanks to Sagar Patel for the amazing Jenkins shared library!
 
