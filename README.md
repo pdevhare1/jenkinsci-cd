@@ -19,7 +19,7 @@ This setup uses **Jenkins** to automate the build, test, security scan, Dockeriz
 
 ### 🏗️ **Architecture Diagram**
 
-![jenkins-architecture.png](/images/github/jenkins-architecture.png)
+![jenkins-architecture.png](/images/jenkins/jenkins-architecture.png)
 
 ---
 
