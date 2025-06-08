@@ -422,3 +422,9 @@ pipeline {
 ### **🌍 Production App Live:**
 
 ![Deploy](./images/jenkins/deploy.png)
+
+### **🙏 Grateful Mentions **
+
+🎉 Thanks to Sagar Patel for the amazing Jenkins shared library!
+
+🔗 Connect with me: Prathamesh Devhare on LinkedIn
