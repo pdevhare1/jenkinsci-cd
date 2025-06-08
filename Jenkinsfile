@@ -2,7 +2,7 @@
 def config = securityConfig("devharep2/flask-cicd:${BUILD_NUMBER}",'flask-cicd-container')
 
 pipeline {
-    agent any
+    agent {label 'ci-cd'}
     
     stages {
         
