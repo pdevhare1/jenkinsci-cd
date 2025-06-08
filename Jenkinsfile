@@ -14,12 +14,12 @@ pipeline {
     stages {
 
         stage('Python Dependency Install') {
-            agent {
-                docker {
-                    image 'python:3.13-slim'
-                    args '-u root' // optional, if permissions needed
-                }
-            }
+            // agent {
+            //     docker {
+            //         image 'python:3.13-slim'
+            //         args '-u root' // optional, if permissions needed
+            //     }
+            // }
             steps {
                 script {
                     installPythonDepsVm()
@@ -36,12 +36,12 @@ pipeline {
         }
 
         stage('Unit Test') {
-            agent {
-                docker {
-                    image 'python:3.13-slim'
-                    args '-u root'
-                }
-            }
+             // agent {
+            //     docker {
+            //         image 'python:3.13-slim'
+            //         args '-u root' // optional, if permissions needed
+            //     }
+            // }
             steps {
                 script {
                     unitTest()
