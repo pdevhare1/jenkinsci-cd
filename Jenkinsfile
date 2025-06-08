@@ -54,7 +54,7 @@ pipeline {
 
         stage('Deploy On Deploying') {
             steps {
-                 sshagent (credentials: ['ssh-ec2']) {
+                sshagent (credentials: ['ssh-ec2']) {
                     script {
                         remoteDockerDeploy(
                             "${config.DOCKER_IMAGE}",
@@ -63,7 +63,7 @@ pipeline {
                             "ssh-ec2"
                         )
                     }
-                 }
+                }
             }
         }
     }
@@ -76,7 +76,7 @@ pipeline {
         }
         
         failure {
-           script {
+        script {
                 sendFailureEmailNotification("${env.FLASK_EMAIL_RECIPIENTS}")
             }
         }
