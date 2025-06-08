@@ -204,7 +204,7 @@ Environment variables are enabled globally.
 
 | Name                     | Value               | Description                       |
 | ------------------------ | ------------------- | --------------------------------- |
-| `FLASK_CICD_EC2_HOST`    | `52.66.137.64`      | Public IP of the EC2 instance     |
+| `FLASK_CICD_EC2_HOST`    | `13.204.16.21`      | Public IP of the EC2 instance     |
 | `FLASK_CICD_EC2_USER`    | `ubuntu`            | Default SSH user for EC2 login    |
 | `FLASK_EMAIL_RECIPIENTS` | `xxxxxxx@gmail.com` | Email recipient for notifications |
 
